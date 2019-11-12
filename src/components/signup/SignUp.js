@@ -39,7 +39,10 @@ class SignUp extends React.Component{
             createUserProfileDocument(user, {displayName })
 
             this.setState({
-
+                displayName: '',
+                email: '',
+                password: '',
+                confirmPassword: ''
             })
 
         }catch (e) {
@@ -89,7 +92,7 @@ class SignUp extends React.Component{
                         label='Confirm Password'
                         required
                     />
-                    <CustomButton type='submit'> Sign up </CustomButton>
+                    <CustomButton type='submit'> SIGN UP </CustomButton>
                 </form>
             </div>
         )
