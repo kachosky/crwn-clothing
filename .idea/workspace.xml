@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a06d76-8920-4bd0-b59c-596dde11deaa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/cartItem/cartItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/cartItem/cartItem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/cart/cartSelector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/CartDropDown.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/CartDropDown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/CartIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/CartIcon.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,18 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CustomButton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/custom-button/CustomButton.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="cartReducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/cart/cartReducer.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,8 +75,8 @@
       <file leaf-file-name="CartIcon.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/cart-icon/CartIcon.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+            <state relative-caret-position="196">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -94,7 +84,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartItem.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cartSelector.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/redux/cart/cartSelector.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/cartItem/CartItem.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -115,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartDropDown.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CartDropDown.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/cart-dropdown/CartDropDown.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="179">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -187,11 +186,12 @@
         <option value="$PROJECT_DIR$/src/redux/cart/cartReducer.js" />
         <option value="$PROJECT_DIR$/src/redux/cart/cartUtils.js" />
         <option value="$PROJECT_DIR$/src/pages/shop/shop.data.js" />
-        <option value="$PROJECT_DIR$/src/components/cart-icon/CartIcon.js" />
         <option value="$PROJECT_DIR$/src/components/cartItem/cartItem.js" />
         <option value="$PROJECT_DIR$/src/components/cartItem/cartItem.scss" />
-        <option value="$PROJECT_DIR$/src/components/cart-dropdown/CartDropDown.js" />
         <option value="$PROJECT_DIR$/src/components/cartItem/CartItem.js" />
+        <option value="$PROJECT_DIR$/src/redux/cart/cartSelector.js" />
+        <option value="$PROJECT_DIR$/src/components/cart-icon/CartIcon.js" />
+        <option value="$PROJECT_DIR$/src/components/cart-dropdown/CartDropDown.js" />
       </list>
     </option>
   </component>
@@ -326,12 +326,12 @@
       <workItem from="1573202486332" duration="17257000" />
       <workItem from="1573383356471" duration="599000" />
       <workItem from="1573472553838" duration="30309000" />
-      <workItem from="1573639535957" duration="6447000" />
+      <workItem from="1573639535957" duration="8560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72052000" />
+    <option name="totallyTimeSpent" value="74165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -364,13 +364,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/directory/Directory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="56" column="26" lean-forward="true" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/directory/directory.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -726,16 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cart-icon/CartIcon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="12" column="74" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/cartItem/cartItem.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -743,20 +726,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cart-dropdown/CartDropDown.js">
+    <entry file="file://$PROJECT_DIR$/src/components/cartItem/CartItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="153">
+          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/cartItem/CartItem.js">
+    <entry file="file://$PROJECT_DIR$/src/redux/cart/cartSelector.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cart-icon/CartIcon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/cart-dropdown/CartDropDown.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
