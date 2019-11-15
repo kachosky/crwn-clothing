@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a06d76-8920-4bd0-b59c-596dde11deaa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/CollectionsOverview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/collections-overview/collectionsoverview.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/CollectionPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/collection/collectionpage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directoryReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directorySelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shopReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shopSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/stripe-button/StripeButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collectionItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collectionItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/Directory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/Directory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/Shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/RootReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/RootReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/CheckOut.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/CheckOut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,20 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="directorySelector.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/redux/directory/directorySelector.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="directoryReducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/redux/directory/directoryReducer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -55,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/pages/shop/shop.data.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="251" lean-forward="true" selection-start-line="251" selection-end-line="251" />
+              <caret line="251" selection-start-line="251" selection-end-line="251" />
               <folding>
                 <element signature="e#67#1372#0" />
                 <element signature="e#1383#2612#0" />
@@ -71,21 +52,68 @@
         <entry file="file://$PROJECT_DIR$/src/redux/shop/shopReducer.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CollectionsOverview.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CollectionsOverview.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/collections-overview/CollectionsOverview.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StripeButton.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/stripe-button/StripeButton.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckOut.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/checkout/CheckOut.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkout.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/checkout/checkout.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="shopSelector.js" pinned="false" current-in-tab="false">
@@ -93,48 +121,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collectionItem.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/collection-item/collectionItem.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Shop.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/shop/Shop.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollectionPage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/collection/CollectionPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collectionpage.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/collection/collectionpage.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -159,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/signup/signup.scss" />
-        <option value="$PROJECT_DIR$/src/components/authentication/Authentication.js" />
         <option value="$PROJECT_DIR$/src/components/signin/SignIn.js" />
         <option value="$PROJECT_DIR$/src/components/signup/SignUp.js" />
         <option value="$PROJECT_DIR$/src/components/authentication/authentication.scss" />
@@ -180,12 +164,10 @@
         <option value="$PROJECT_DIR$/src/components/header/Header.js" />
         <option value="$PROJECT_DIR$/src/components/cart-dropdown/cartDropDown.scss" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/pages/checkout/checkout.scss" />
         <option value="$PROJECT_DIR$/src/redux/cart/cartSelector.js" />
         <option value="$PROJECT_DIR$/src/components/cart-dropdown/CartDropDown.js" />
         <option value="$PROJECT_DIR$/src/components/checkout-item/CheckOutItem.js" />
         <option value="$PROJECT_DIR$/src/components/checkout-item/CheckoutItem.js" />
-        <option value="$PROJECT_DIR$/src/pages/checkout/CheckOut.js" />
         <option value="$PROJECT_DIR$/src/components/checkout-item/checkoutitem" />
         <option value="$PROJECT_DIR$/src/components/checkout-item/checkItem.scss" />
         <option value="$PROJECT_DIR$/src/redux/cart/cartTypes.js" />
@@ -210,6 +192,10 @@
         <option value="$PROJECT_DIR$/src/pages/shop/shop.data.js" />
         <option value="$PROJECT_DIR$/src/redux/shop/shopSelector.js" />
         <option value="$PROJECT_DIR$/src/components/collections-overview/CollectionsOverview.js" />
+        <option value="$PROJECT_DIR$/src/components/stripe-button/StripeButton.js" />
+        <option value="$PROJECT_DIR$/src/pages/checkout/CheckOut.js" />
+        <option value="$PROJECT_DIR$/src/pages/checkout/checkout.scss" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -251,53 +237,7 @@
             <path>
               <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
               <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="collections-overview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="directory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crwn-clothing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="crwn-clothing" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="redux" type="462c0819:PsiDirectoryNode" />
-              <item name="shop" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,7 +246,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="sho&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/redux/shop/shopSelector.js&#10;shop&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/redux/shop/shopReducer.js&#10;collectioI&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/collection-item/collectionItem.scss&#10;shopS&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/redux/shop/shopSelector.js&#10;coll&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/collections-overview/CollectionsOverview.js&#10;cartSe&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/redux/cart/cartSelector.js&#10;cart&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/cart-dropdown/CartDropDown.js&#10;a&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/App.js&#10;app&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/App.js&#10;cartDr&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/cart-dropdown/cartDropDown.scss&#10;hea&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/header/Header.js&#10;colle&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/collection-item/CollectionItem.js&#10;cus&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/custom-button/CustomButton.js&#10;header&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/header/Header.js" />
+    <property name="SearchEverywhereHistoryKey" value="checkO&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/pages/checkout/checkout.scss&#10;chec&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/pages/checkout/CheckOut.js&#10;sho&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/redux/shop/shopSelector.js&#10;shop&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/redux/shop/shopReducer.js&#10;collectioI&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/collection-item/collectionItem.scss&#10;shopS&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/redux/shop/shopSelector.js&#10;coll&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/collections-overview/CollectionsOverview.js&#10;cartSe&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/redux/cart/cartSelector.js&#10;cart&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/cart-dropdown/CartDropDown.js&#10;a&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/App.js&#10;app&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/App.js&#10;cartDr&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/cart-dropdown/cartDropDown.scss&#10;hea&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/header/Header.js&#10;colle&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/collection-item/CollectionItem.js&#10;cus&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/custom-button/CustomButton.js&#10;header&#9;FILE&#9;file://C:/Users/user/Documents/kola-projects/React learning/crwn-clothing/src/components/header/Header.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -351,18 +291,18 @@
       <workItem from="1573202486332" duration="17257000" />
       <workItem from="1573383356471" duration="599000" />
       <workItem from="1573472553838" duration="30309000" />
-      <workItem from="1573639535957" duration="35972000" />
+      <workItem from="1573639535957" duration="42619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101577000" />
+    <option name="totallyTimeSpent" value="108224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2217806" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217806" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -389,40 +329,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/form-input/FormInput.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/form-input/formInput.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/signup/signup.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/authentication/Authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/signup/SignUp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1112">
@@ -576,30 +482,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/checkout/checkout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-161">
           <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/checkout/CheckOut.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-            <element signature="e#126#286#0" />
           </folding>
         </state>
       </provider>
@@ -757,7 +645,7 @@
     <entry file="file://$PROJECT_DIR$/src/redux/directory/directorySelector.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -774,14 +662,14 @@
     <entry file="file://$PROJECT_DIR$/src/redux/directory/directoryReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/shop/shop.data.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="251" lean-forward="true" selection-start-line="251" selection-end-line="251" />
+          <caret line="251" selection-start-line="251" selection-end-line="251" />
           <folding>
             <element signature="e#67#1372#0" />
             <element signature="e#1383#2612#0" />
@@ -795,7 +683,7 @@
     <entry file="file://$PROJECT_DIR$/src/redux/shop/shopReducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -808,11 +696,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/collections-overview/CollectionsOverview.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        <state relative-caret-position="270">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/stripe-button/StripeButton.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/checkout/CheckOut.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/checkout/checkout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
